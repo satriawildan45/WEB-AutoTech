@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AutoTech - Futuristic Car Experience</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="futuristic-theme">
+  <header data-aos="fade-down">
+    <h1>Auto<span style="color:#ff003c">Tech</span></h1>
+    <nav>
+      <a href="#features">Fitur</a>
+      <a href="#gallery">Galeri</a>
+      <a href="#testimonials">Testimoni</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="zoom-in">
+    <div>
+      <h1>Teknologi Otomotif Masa Depan</h1>
+      <p>Kendaraan super dengan desain futuristik dan performa ekstrem.</p>
+      <button class="btn">Lihat Selengkapnya</button>
+    </div>
+    <div class="image-placeholder" style="background-image: url('https://asset.kompas.com/crops/1iB_tu0IyC2VRCt_tw5AGGeGR5o=/139x0:1996x1238/1200x800/data/photo/2024/04/11/6616d1b7eb17a.jpg');"></div>
+  </section>
+
+  <section id="features" class="features" data-aos="fade-up">
+    <h2>Keunggulan Kami</h2>
+    <ul>
+      <li>Teknologi Mesin Mutakhir</li>
+      <li>Desain Sport Futuristik</li>
+      <li>Performa Maksimal di Segala Medan</li>
+    </ul>
+  </section>
+
+  <section class="info-section" data-aos="fade-right">
+    <h2>Info Terbaru</h2>
+    <p>Update terkini seputar teknologi otomotif, inovasi kendaraan listrik, dan kecanggihan interior digital.</p>
+    <div class="info-image-wrapper">
+      <div class="image-placeholder" style="background-image: url('https://awsimages.detik.net.id/api/wm/2021/01/29/interior-terbaru-tesla-model-s_169.jpeg')"></div>
+    </div>
+  </section>
+
+  <section id="gallery" class="image-gallery" data-aos="fade-up">
+    <img src="https://imgcdn.oto.com/medium/gallery/exterior/34/2844/rolls-royce-spectre-56690.jpg" alt="Mobil Sport 1">
+    <img src="https://imgcdnblog.carbay.com/wp-content/uploads/2024/10/17185804/Ferrari-F80-8.jpeg" alt="Mobil Sport Biru Merah">
+    <img src="https://otoblitz.net/wp-content/uploads/2019/09/MCCI_Museum_Mini_Otoblitz-6-1024x683.jpg" alt="Mobil Klasik">
+    <img src="https://asset.kompas.com/crops/jVh7ePObpgCk0le7paoXaDHB2F8=/0x0:1024x683/1200x800/data/photo/2023/06/10/648399933d883.jpg" alt="Mobil Balap">
+  </section>
+
+  <section class="cards" data-aos="fade-up">
+    <h2>Produk Terbaik</h2>
+    <div class="cards-container">
+      <div class="card" data-aos="zoom-in">
+        <h3>Hyper Parts</h3>
+        <p>Komponen berkualitas tinggi untuk performa maksimal kendaraan sport.</p>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Service AI Otomatis</h3>
+        <p>Pelayanan pintar dengan sistem deteksi kerusakan otomatis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials" data-aos="fade-in">
+    <h2>Apa Kata Mereka?</h2>
+    <p class="testimonial">"Mobil saya terlihat seperti keluar dari masa depan! Luar biasa!" - Raka</p>
+  </section>
+
+  <section id="contact" class="contact-form" data-aos="fade-up">
+    <h2>Hubungi Kami</h2>
+    <form>
+      <input type="text" placeholder="Nama Anda" required />
+      <input type="email" placeholder="Email" required />
+      <textarea rows="5" placeholder="Pesan Anda" required></textarea>
+      <button class="btn" type="submit">Kirim Pesan</button>
+    </form>
+  </section>
+
+  <footer data-aos="fade-up">
+    <p>&copy; 2025 AutoTech. All rights reserved.</p>
+    <button class="btn" onclick="toggleDarkMode()">Ganti Tema</button>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
